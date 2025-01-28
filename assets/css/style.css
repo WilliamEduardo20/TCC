@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Barra de Navegação*/
+ /*Mobile*/
+.barraVertical{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+}
+.navBar{
+    width: 100%;
+    background-color: #4848f4;
+    display: flex;
+    justify-content: center;
+}
+.navBar ul{
+    display: flex;
+    align-items: end;
+    list-style: none;
+    gap: 10px;
+}
+.navBar i.icon{
+    color: #FFFFFF;
+}
+ /*Sensação de profundidade*/
+.navBar ul li{
+    font-size: x-large;
+}
+.navBar ul li ul li{
+    font-size: xx-large;
+}
+.navBar ul li ul li ul li{
+    font-size: xxx-large;
+}
